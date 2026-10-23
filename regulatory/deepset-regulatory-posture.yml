@@ -1,0 +1,11 @@
+generated: '2026-10-22'
+method: probed
+source: https://www.deepset.ai/privacy-policy
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://www.deepset.ai/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled."
+        note: Indicates that deepset informs data subjects of their rights, fulfilling data subject request obligations.

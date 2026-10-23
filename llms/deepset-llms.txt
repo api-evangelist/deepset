@@ -1,0 +1,12 @@
+# Haystack Enterprise Platform Documentation
+
+> Everything you need to build with deepset.
+
+This file lists documentation pages as markdown URLs for agents and LLMs.
+
+For full documentation content in one file, see [llms-full.txt](/llms-full.txt).
+
+## Table of Contents
+
+- [Documentation index part 1](/llms-pages-part-1.txt)
+- [Documentation index part 2](/llms-pages-part-2.txt)

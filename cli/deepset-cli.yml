@@ -1,0 +1,31 @@
+generated: '2026-10-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.cloud.deepset.ai/reference/sdk-docs
+sources:
+- https://docs.cloud.deepset.ai/reference/sdk-docs
+- https://docs.cloud.deepset.ai/reference/sdk-overview
+- https://docs.cloud.deepset.ai/reference/sdk-quickstart
+- https://docs.cloud.deepset.ai/reference/sdk-install
+install:
+- method: uv tool
+  command: uv tool install haystack-enterprise-sdk
+- method: pip (alternative, not a standalone CLI)
+  command: pip install haystack-enterprise-sdk
+commands:
+- group: authentication
+  commands:
+  - login
+- group: pipeline
+  commands:
+  - validate
+  - run
+  - deploy
+- group: file management
+  commands:
+  - upload
+- group: service
+  commands:
+  - service-status
+binary: haystack-enterprise
+docs: https://docs.cloud.deepset.ai/reference/sdk-docs
